@@ -1,0 +1,129 @@
+h1 {
+  font-family: "Literata", serif;
+  font-weight: 300;
+  font-size:3em;
+  padding:5%;
+}
+
+.header {
+  padding:3%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about-para{
+  width:40%;
+  font-size:14px;
+}
+
+a{
+  font-family: "Literata", serif;
+  font-weight: 400;
+  font-size:13px;
+}
+
+
+.name h1 {
+  margin: 0; /* Remove default margin */
+}
+
+.nav ul {
+  padding: 0; /* Remove default padding */
+  list-style-type: none;
+}
+
+.nav ul li:hover {
+  text-decoration: underline;
+}
+
+.nav {
+  padding-right: 6%;
+}
+
+.nav ul li {
+  margin-top: 20px; /* Adjust spacing between navigation items */
+  transition: text-decoration 0.3s ease; 
+  
+}
+
+a {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit color from parent element */
+}
+
+a:hover {
+  text-decoration: none; /* Remove underline on hover */
+  color: inherit; /* Inherit color from parent element on hover */
+}
+
+h2{
+  font-size:2em;
+  font-weight:300;
+}
+
+.about {
+  font-family: "Literata", serif;
+  font-weight: 300;
+  padding-top:3%;
+  padding-left:7%;
+  padding-right:5%;
+  padding-bottom:5%;
+}
+
+p{
+  font-family: "Literata", serif;
+  font-weight: 300;
+  padding:5%;
+  font-size:13px;
+  width:65%;
+}
+
+.flex-content{
+  display:flex;
+  align-items: center;
+}
+
+.border {
+  padding: 5%;
+  margin: 5%;
+  font-size: 2em;
+  font-weight: 300;
+  border: 1px solid grey;
+  transition: opacity 0.5s ease; /* Smooth transition effect */
+}
+
+h3 {
+  font-family: "Literata", serif;
+  font-weight: 300;
+  width: 100%;
+  max-width: 100%;
+  z-index: 1;
+  margin:0%;
+  position: relative; /* Add position relative to allow positioning of ::after */
+}
+
+h4{
+  font-family: "Literata", serif;
+  font-weight: 300;
+  width: 100%;
+  margin:3%;
+  font-size:60%;
+  padding:0%;
+}
+
+.expandable-content img{
+margin:2px;
+}
+
+.arrow-icon{
+  padding:2%;
+  
+}
+
+
+.circle {
+  width: 20px; /* Adjust the width and height as needed */
+  height: 20px;
+  border-radius: 50%; /* Make it round */
+  border: 2px solid #000; /* Add a border */
+}
